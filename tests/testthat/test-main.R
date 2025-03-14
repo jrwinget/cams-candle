@@ -1,6 +1,6 @@
 box::use(
   shiny[testServer],
-  testthat[expect_true, test_that, expect_equal],
+  testthat[expect_equal, test_that],
 )
 box::use(
   app/main[server],
